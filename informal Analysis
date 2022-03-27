@@ -1,0 +1,15 @@
+Bin1s. 
+The pattern in bin1s is that the number of calls is dependent on powers of 2 since it is binary. If we let a(n) be the function calls and n be the number put into the bin1s program, and let (x(n)) be the closest floor to an power of 2, 
+
+bin1s  a(n) = (log2 (x(n))) +1    
+
+Ex,   n= 7, x(n) would be 22 or 4.  Log base 2 of 4 would be 2, 2+1 would equal 3
+Ex2. n=15, x(n) would be 8, log base 2 of 8 would be 3, 3+1 equals 4, the program calls the function 4 times. 
+
+Strings 
+The pattern in strings is that the number of calls is predicted in a sequence that can be described by an iterative function. Looking at the number of calls, the pattern noticed is that the number of calls is dependent on the number of calls for (n-1) times n +1. Let a(n) be the number of function calls, and n be the number of characters of the string input into the strings program. 
+
+Strings a(n) = n( a(n-1)) +1 
+Ex, let n = 6, then 6 times the number of calls for n=5 plus 1 is the number of call for n=6, which would be 6(206)+1= 1237 
+
+ 
